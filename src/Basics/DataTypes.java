@@ -1,8 +1,8 @@
-public class Basics {
-    public static void main(String[] args) {
+package Basics;
 
-        //first program to just print hello world
-        System.out.println("Hello World");
+public class DataTypes {
+    public static void main(String[] args) {
+        // covers variable, data types and String
 
         // Variables
         String name = "Vivek";
@@ -35,11 +35,11 @@ public class Basics {
         // NonPrimitive example
         System.out.println(name.length()); //example to show that length is not fixed
         //declare new keyword
-        String naam = new String("Thanu");
+        String naam = "Thanu";
 
         // Create two new surname strings
-        String sur1 = new String("Tunggu");
-        String sur2 = new String("Kumar");
+        String sur1 = "Tunggu";
+        String sur2 = "Kumar";
         System.out.println(sur1);
         System.out.println(sur2);
 
@@ -75,10 +75,5 @@ public class Basics {
         String subIt = "Thanushree";
         System.out.println(subIt.substring(3,5)); // usually excludes the last number's value and gives from 1st number (3-4), the count is 0-n
 
-        /* ARRAYS
-
-         */
     }
 }
-
-
